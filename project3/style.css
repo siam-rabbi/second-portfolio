@@ -1,0 +1,650 @@
+*{
+  text-decoration: none;  
+}
+
+
+body{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    
+    background-color:#f9f9ff;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    
+}
+header div{
+   
+    float: left;
+}
+header .logo{
+    margin-left: 250px;
+    padding: 20px;
+    
+    
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    float: left;
+    padding: 10px 20px;
+    font-weight: bold;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(123, 116, 116);
+}
+.nav ul li a:hover{
+    color: #7f97ff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.cheakbtn{
+    
+    display: none;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+    cursor: pointer;
+
+}
+
+  
+#cheak{
+    display: none;
+}
+
+
+
+
+/*SECTION1 ST HERE*/
+section{
+    background-color: #ffffff;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.half1, .half2{
+    width: 50%;
+    
+}
+.half1{
+    margin-left: 180px;
+    margin-bottom: 120px;
+    margin-top: 75px;
+}
+.half2{
+    margin-right: 160px;
+    margin-top: 50px;
+   
+}
+.half2 img{
+    margin: auto;
+    max-width: 100%;
+    margin-top: 75px;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 50px;
+}
+.half1 p{
+    color: rgb(131, 126, 126);
+}
+.half1 button{
+    padding: 15px 30px;
+    background-color: #7385f7;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.half1 button:hover{
+    box-shadow: 5px 10px 30px rgba(104, 123, 247, 0.5);
+    transition: all 0.3s ease-in;
+    outline: none;
+    padding: 18px 33px;
+}
+/*SECTION1 END HERE*/
+/* section2 starts here*/
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f9f9ff;
+}
+.image, .text1{
+    width: 50%;
+}
+.section2 .text1{
+    margin-left: 180px;
+    
+}
+.section2 img{
+    width: 90%;
+    height: auto;
+    padding-left: 180px;
+}
+.section2 h3{
+    font-weight: normal;
+}
+.section2 h1{
+    font-size: 50px;
+}
+.section2 p{
+    color: rgb(131, 126, 126);
+    width: 80%;
+    text-align: justify;
+}
+
+.text1 button{
+    padding: 15px 30px;
+    background-color: #7385f7;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.text1 button:hover{
+    box-shadow: 5px 10px 30px rgba(104, 123, 247, 0.5);
+    transition: all 0.3s ease-in;
+    padding: 18px 33px;
+    outline: none;
+}
+/* section2 ends here*/
+/* section3 starts here*/
+.section3{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.text2 h1{
+    font-size: 50px;
+    
+    
+    
+}
+.text2 p{
+    width: 670px;
+    margin: 0 auto; 
+    color: rgba(0, 0, 0, 0.5);
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.service .ser1{
+    width: 100%;
+}
+.ser1 div{
+    width: 32%;
+    float: left;
+    padding: 5%;
+    margin: 0 auto;
+    position: relative;
+    left: 100px;
+    
+}
+.ser1 p{
+    color: gray;
+}
+.ser1 div:hover{
+    color: #7f97ff;
+}
+.fa-camera{
+    font-size: 30px;
+}
+.fa-image{
+    font-size: 30px;
+}
+.fa-pie-chart{
+    font-size: 30px;
+}
+.fa-computer{
+    font-size: 30px;
+}
+.fa-rocket{
+    font-size: 30px;
+}
+.fa-tablet-screen-button{
+    font-size: 30px;
+}
+/*section3 ends here*/
+/*section4 starts here*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #7f97ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4 div{
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+    
+    
+}
+.section4 h1{
+    text-align: center;
+    font-size: 60px;
+    color: #ffff;
+}
+.section4 p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffff;
+    
+   
+}
+/*section4 ends here*/
+/*section5 starts here*/
+.section5 .text3{
+     text-align: center;
+     padding: 100px 0;
+}
+.section5 .text3 h1{
+    font-size: 40px;
+    
+}
+.section5 .text3 p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.section5 .imgg{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgg div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.imgg h1{
+    font-size: 20px;
+    
+}
+.imgg p{
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 0;
+}
+.section5 figure{
+    width: 340px;
+    height: 339px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 3%;
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+}
+.section5 figure:hover img{
+    opacity: .3;
+    transition: all 0.3s;
+
+}
+/*section5 ends here*/
+/*section6 starts here*/
+.section6{
+    width: 100%;
+    height: 700px;
+    
+}
+.section6 .text4{
+    text-align: center;
+    padding: 2% 0;
+    margin: 50px 0;
+    background-color: #f9f9ff;
+    
+}
+.section6 .text4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section6 .text4 p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card .cards{
+    width: 300px;
+    height:650px;
+    background-color: #f9f9ff;
+    text-align: center;
+
+}
+.section6 .card h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section6 .cards button{
+    padding: 15px 30px;
+    background-color: royalblue;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: #ffffff 4px 4px 15px ;
+}
+
+.section6 .cards:hover{
+    width: 330px;
+    
+    color: #ffff;
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    transition: all 0.3s ease;
+}
+.section6 .cards p{
+    
+    padding: 7px 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+footer{
+    background-color:#04091e;
+    width: 100%;
+    height: 430px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+}
+.pera1{
+    width: 480px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot1 button{
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #7f97ff;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.foot .foot1 i{
+    
+    color: #ffff;
+    font-size: 20px;
+    margin-top: 10px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.foot1 i:hover{
+    color: blue;
+}
+.foot1 .anc{
+    color: #7f97ff;
+}
+/*section6 ends here*/
+/* responsive st*/
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+        
+    }
+    header .logo{
+        margin-left: 20px;
+        padding: 20px;
+    }
+    .cheakbtn{
+        display: block;
+    }
+    .nav ul{
+        position: fixed;
+        width: 47%;
+        height: 100vh;
+        background: #0f0f0f;
+        top: 0;
+        left: -200%;
+        transition: all .1s;
+        margin-top: 0px;
+        opacity: .97;
+        border-radius: 4px;
+        
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 30px;
+    
+    }
+    header .nav ul li a{
+        
+        color: #ffff;
+        
+        
+    }
+    
+    section{
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+    .half1{
+        margin: auto;
+        margin-top: 140px;
+        padding: 0;
+        margin-left: 60px;
+        width: 70%;
+    }
+    .half1 h1{
+        font-size: 30px;
+    }
+    .half2 img{
+        margin-left: 100px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+    .section2{
+        width: 100%;
+        height: 110vh;
+        display: block;
+    }
+    .section2 .image{
+       
+    }
+    .section2 .image img{
+       position: relative;
+       right: 120px;
+       width: 450px;
+       height: 370px;
+       top: 50px;
+    }
+    .section2 div{
+        width: 100%;
+    }
+    .section2 .text1{
+        position: relative;
+        top: 50px;
+        margin-left: 40px;
+        
+        margin-bottom: 70px;
+        height: 350px;
+    }
+    .section2 .text1 h1{
+        font-size: 30px;
+    }
+    .section2 .text1 p{
+        font-size: 18px;
+        
+    }
+    .section2 button{
+        margin-top: 30px;
+
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 100px;
+    }
+    .section3 .text2 h1{
+        font-size: 40px;
+    }
+    .section3 .text2 p{
+        width: 80%;
+    }
+    .ser1 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        left: 50px;
+
+    }
+    .ser1 .font-awesome{
+        position: relative;
+        left: -10px;
+    }
+    .ser1 p{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .section4{
+        width: 100%;
+        display: block;
+        height: 100vh;
+        margin-top: 230px;
+    }
+    .section4 h1{
+        font-size: 3rem;
+        line-height: 10px;
+    }
+    .section4 p{
+        font-size: 18px;
+        width: 112%;
+        margin: 0 auto;
+    }
+    .section4 div{
+        line-height: 60px;
+    }
+    .section5 .text3 h1{
+        font-size: 30px;
+    }
+    .section5 .text3 p{
+        font-size: 18px;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .section6{
+        width: 100%;
+        height: 100vh;
+        display: block;
+        position: relative;
+        top: 50px;
+    }
+    .section6 .text4 h1{
+        font-size: 30px;
+        line-height: 17px;
+    }
+    .section6 .text4 p{
+        font-size: 18px;
+        width: 45%;
+        margin: 0 auto;
+        
+    }
+    .section6 .card{
+        width: 100%;
+        height: 100vh;
+        display: block;
+        position: relative;
+        left: 83px;
+        
+    }
+    .section6 .card .cards{
+        width: 450px;
+    }
+    footer{
+        display: block;
+        position: relative;
+        top: 1430px;
+        width: 100%;
+        height: 100vh;
+    }
+    footer .foot{
+        
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+ .foot1 .pera1{
+        width: 80%;
+    }
+
+}
+
+
+
+#cheak:checked ~ ul{
+    left: 0;
+}
